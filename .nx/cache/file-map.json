@@ -1,0 +1,221 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.8",
+  "deps": {
+    "@angular/animations": "^17.2.2",
+    "@angular/common": "^17.2.2",
+    "@angular/compiler": "^17.2.2",
+    "@angular/core": "^17.2.2",
+    "@angular/forms": "^17.2.2",
+    "@angular/platform-browser": "^17.2.2",
+    "@angular/platform-browser-dynamic": "^17.2.2",
+    "@angular/router": "^17.2.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.4",
+    "@angular-devkit/build-angular": "^17.2.1",
+    "@angular/cli": "~17.2.1",
+    "@angular/compiler-cli": "^17.2.2",
+    "@types/jasmine": "~4.3.0",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "typescript": "~5.3.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "Angular-Signal": [
+        {
+          "file": ".editorconfig",
+          "hash": "6686520031028425313"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "13044518069027839699"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "5331566439708925252"
+        },
+        {
+          "file": ".vscode/launch.json",
+          "hash": "17038929134016848735"
+        },
+        {
+          "file": ".vscode/tasks.json",
+          "hash": "5336636969995539451"
+        },
+        {
+          "file": "README.md",
+          "hash": "17304096902591088224"
+        },
+        {
+          "file": "angular.json",
+          "hash": "4049437655139113560"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "6841375238881088851"
+        },
+        {
+          "file": "package.json",
+          "hash": "14413322991272546990",
+          "deps": [
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:rxjs",
+            "npm:tslib",
+            "npm:zone.js",
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@types/jasmine",
+            "npm:jasmine-core",
+            "npm:karma",
+            "npm:karma-chrome-launcher",
+            "npm:karma-coverage",
+            "npm:karma-jasmine",
+            "npm:karma-jasmine-html-reporter",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "src/app/app-routing.module.ts",
+          "hash": "12275038683315916474"
+        },
+        {
+          "file": "src/app/app.component.html",
+          "hash": "17161985801611386416"
+        },
+        {
+          "file": "src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/app.component.spec.ts",
+          "hash": "11394063157391886095"
+        },
+        {
+          "file": "src/app/app.component.ts",
+          "hash": "2810769323934936497"
+        },
+        {
+          "file": "src/app/app.module.ts",
+          "hash": "605845218232526096"
+        },
+        {
+          "file": "src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/cart/cart.component.html",
+          "hash": "16663151699528936239"
+        },
+        {
+          "file": "src/cart/cart.component.scss",
+          "hash": "5328289628101446533"
+        },
+        {
+          "file": "src/cart/cart.component.spec.ts",
+          "hash": "2937884815464423898"
+        },
+        {
+          "file": "src/cart/cart.component.ts",
+          "hash": "11247711825550223692"
+        },
+        {
+          "file": "src/favicon.ico",
+          "hash": "3887491056732423038"
+        },
+        {
+          "file": "src/header/header.component.html",
+          "hash": "5353725334903349535"
+        },
+        {
+          "file": "src/header/header.component.scss",
+          "hash": "15409064386841996177"
+        },
+        {
+          "file": "src/header/header.component.spec.ts",
+          "hash": "9502701784254883670"
+        },
+        {
+          "file": "src/header/header.component.ts",
+          "hash": "6355696293307120729"
+        },
+        {
+          "file": "src/index.html",
+          "hash": "13699434337362518223"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "12246588107753938993"
+        },
+        {
+          "file": "src/product-list/product-list.component.html",
+          "hash": "4498976231270593524"
+        },
+        {
+          "file": "src/product-list/product-list.component.scss",
+          "hash": "10204163509148723285"
+        },
+        {
+          "file": "src/product-list/product-list.component.spec.ts",
+          "hash": "4276953650868719963"
+        },
+        {
+          "file": "src/product-list/product-list.component.ts",
+          "hash": "18389212819864895269"
+        },
+        {
+          "file": "src/services/app.service.spec.ts",
+          "hash": "2919785635943624648"
+        },
+        {
+          "file": "src/services/app.service.ts",
+          "hash": "1646055123317853227"
+        },
+        {
+          "file": "src/services/cart.service.spec.ts",
+          "hash": "4835626579989819090"
+        },
+        {
+          "file": "src/services/cart.service.ts",
+          "hash": "4058331755859492251"
+        },
+        {
+          "file": "src/signal.drawio",
+          "hash": "2044943372500629791"
+        },
+        {
+          "file": "src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "17337579397915052279"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "1047940026627514556"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "15575553540147145788"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}
