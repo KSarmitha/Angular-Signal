@@ -1,26 +1,20 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { AppService, IProduct } from 'src/services/app.service';
-import { CartService } from 'src/services/cart.service';
+import { Component, inject } from '@angular/core';
+import { ApiService, IProduct } from '../services/api.service';
+import { CartService } from '../services/cart.service';
 
 @Component({
   selector: 'app-product-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.scss']
+  styleUrl: './product-list.component.scss'
 })
 export class ProductListComponent {
-
-  public products:IProduct[] = []; 
-
-  constructor(
-    public appService: AppService,
-    private cartService: CartService
-  ) { }
+  protected products:IProduct[] = []; 
+  protected cartService = inject(CartService);
+  protected apiService = inject(ApiService);
 
   addToCart(product: IProduct): void {
     this.cartService.addProduct(product);
   }
-
 }
