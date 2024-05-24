@@ -7,7 +7,7 @@ import { ApiService, IProduct } from './api.service';
 export class CartService {
   public cartItems = signal<IProduct[]>([]);
   public totalItems = computed(() => this.cartItems().length);
-  public subTotals = computed(() => this.cartItems().reduce((preVal, curr: IProduct) => {
+  public subTotals = computed(() => this.cartItems().reduce((preVal: number, curr: IProduct) => {
     return preVal + Number(curr.price);
   }, 0))
 
